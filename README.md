@@ -1,9 +1,31 @@
 <h1>About</h1>
-Convect your csv files in xlsx files
-<h1>Run</h1>
+<h4>Convect your csv files in xlsx files</h4>
+<h1>Install</h1>
 
 ### For install, use:
     pip install -r requirements.txt
 
-### For run, use:
-    python conv.py
+# Run
+
+    python conv.py G:\files G:\files\xlsx
+### With remove:
+
+    python conv.py G:\files G:\files\xlsx --rm
+
+<h1>Arguments</h1>
+
+#### The first arg is csv files folder, example:
+
+    python conv.py G:\files
+#### Second arg is xlsx files folder, example:
+
+    python conv.py G:\files G:\files\xlsx
+#### You can also use the same folder as for csv files, to do this enter -, example:
+
+    python conv.py G:\files -
+#### Last arg is responsible for deleting files, example:
+
+    python conv.py G:\files G:\files\xlsx --rm
+#### If don't need to delete it, then just don't write argument, example:
+
+    python conv.py G:\files G:\files\xlsx
