@@ -10,7 +10,7 @@
     python conv.py G:\files G:\files\xlsx
 ### With remove:
 
-    python conv.py G:\files G:\files\xlsx --rm
+    python conv.py G:\files G:\files\xlsx --rm=true
 
 <h1>Arguments</h1>
 
@@ -20,12 +20,13 @@
 #### Second arg is xlsx files folder, example:
 
     python conv.py G:\files G:\files\xlsx
-#### You can also use the same folder as for csv files, to do this enter -, example:
+#### You can also use the same folder as for csv files, example:
 
-    python conv.py G:\files -
+    python conv.py G:\files 
 #### Last arg is responsible for deleting files, example:
 
-    python conv.py G:\files G:\files\xlsx --rm
+    python conv.py G:\files G:\files\xlsx --rm=true
 #### If don't need to delete it, then just don't write argument, example:
 
     python conv.py G:\files G:\files\xlsx
+### Good luck
